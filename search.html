@@ -12,27 +12,22 @@
         <img src="./Logo_DCAP_Primary.png" alt="DCAP Logo" class="app-logo">
     </header>
     <main class="app-main">
-        <div class="welcome-text">
-            <p>Welcome back,</p>
-            <h1>Muhammad Hilmi</h1>
+        <div class="page-title">
+            <h1>Search Vehicle</h1>
         </div>
-        <div class="action-cards">
-            <a href="./search.html" class="card main-card">
-                <div class="icon search-icon"></div>
-                <p>Search Vehicle</p>
-            </a>
-            <a href="./ongoing-repo.html" class="card">
-                <div class="icon ongoing-icon"></div>
-                <p>Ongoing Repo</p>
-            </a>
-            <a href="#view-history" class="card">
-                <div class="icon history-icon"></div>
-                <p>View History</p>
-            </a>
-            <a href="tel:+60129409461" class="card">
-                <div class="icon support-icon"></div>
-                <p>Support</p>
-            </a>
+
+        <div class="search-container">
+            <form class="search-form">
+                <div class="form-content">
+                    <input class="search-input" type="text" id="plate-number" name="plate-number" placeholder="Enter the vehicle no. here" required>
+                </div>
+
+                <a href="./search-results.html" class="submit-button search-submit">
+                    <div class="search-icon-button">
+                        <img src="./icons/search.png" alt="" class="search-icon">
+                    </div>
+                </a>
+            </form>
         </div>
     </main>
     <nav class="bottom-nav">

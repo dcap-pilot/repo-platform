@@ -48,6 +48,11 @@ body {
     text-indent: 5%;
 }
 
+.page-title h1 {
+    text-align: left;
+    font-size: 18px;
+}
+
 .action-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -69,6 +74,31 @@ body {
     color: #333;
     width: 150px;
     height: 150px;
+}
+
+
+.list-cards-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.list-cards {
+    display: flex;
+    margin-top: 10px;
+}
+
+.item-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+    
 }
 
 .main-card {
@@ -144,4 +174,80 @@ body {
 
 .settings-nav {
     background-image: url('./icons/settings.png');
+}
+
+.card:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+.main-card:hover {
+    background-color: #267a7e;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-icon-button {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.search-icon-button > img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.item-status{
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #267a7e;
+    padding: 3px;
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+    position: absolute;
+    transform: translate(310%, -50%);
+}
+
+.financier-name{
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
 }
