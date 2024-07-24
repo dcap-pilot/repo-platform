@@ -14,9 +14,13 @@ body {
 }
 
 .app-header {
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .app-logo {
@@ -113,7 +117,7 @@ body {
     justify-content: space-around;
     padding: 10px 0;
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 20px);
